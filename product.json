@@ -1,0 +1,27 @@
+[
+    { 
+    "name": "Caramel Macchiato", 
+    "description": "Infused with milk, contains vanilla syrup and caramel", 
+    "price": "85" ,
+    "imgSrc": "images/fikacm.jpg"
+    }, 
+    { 
+    "name": "Vanilla Latte", 
+    "description": "Infused with milk and a pump of vanilla", 
+    "price": "85" ,
+    "imgSrc": "images/fikavl.JPG"
+    }, 
+    { 
+    "name": "Cold Brew", 
+    "description": "Black and simple, steeped for 18 hours", 
+    "price": "70" ,
+    "imgSrc": "images/fikacb.JPG"
+    } ,
+    { 
+    "name": "One of Each", 
+    "description": "Set of Cold Brew, Caramel Macchiato, and Vanilla Latte", 
+    "price": "215" ,
+    "imgSrc": "images/3in1.jpg"
+    }
+] 
+   

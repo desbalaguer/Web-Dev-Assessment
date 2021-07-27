@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Fika Cafe - Home</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+        <script src="script.js" async></script>
+    </head>
+    <body> 
+        <header>
+            <div class= "container">
+                <!-- navbar -->
+                <nav class = "navbar">
+                    <a href = "index.html" class = "navbar-brand">fika café</a><br><br>
+                      <div class = "cart" style="position: fixed; right: 0;">
+                        <button type = "button" id = "cart-btn">
+                          <i class = "fas fa-shopping-cart"></i>
+                          <span id = "cart-count-info"></span>
+                        </button>
+                        
+                        <div class = "cart_container">
+                            <div class = "cart-list">
+                            </div>
+                            <!--end of cart-item list-->
+
+                            <!--cart total-->
+                            <div class = "cart-total">
+                                <h3>Total: Php</h3>
+                                <span id = "cart-total-value"></span>
+                            </div>
+                            <!--end of cart total-->
+                        </div>
+                     </div>
+                     <div class = "navbar-collapse" style="position:relative; right:0%;"></div>
+                     <ul>
+                       <li>HOME</li>
+                       <li><a href="about.html">ABOUT</a></li>
+                       <li><a href="faqs.html">FAQs</a></li>
+                     </ul>
+                     </div>
+                </nav>
+                <!--end of nav bar-->
+            </div>
+        </header>
+
+        <!-- end of header  -->
+
+        <!-- products section  -->
+        <section class = "products">
+            <div class = "container">
+              <h2>Our Products</h2>
+              <p class = "product-banner" style="text-align: center;">Pick from our three flavors: Cold Brew, Caramel Macchiato, or Vanilla Latte. A simple fix of freshly brewed arabica and steeped for 18 hours.
+              </p>
+              <div class = "product-list">
+                <!-- single item1 -->
+                <div class = "product-item">
+                    <div class = "product-img">
+                      <img src = "images/fikacm.JPG" alt = "product image">
+                      <button type = "button" class = "add-to-cart-btn">
+                        <i class = "fas fa-shopping-cart"></i>Add To Cart
+                      </button>
+                    </div>
+                    <div class = "product-content">
+                      <h3 class = "product-name">Caramel Macchiato</h3>
+                      <span class = "product-description">Infused with milk, contains vanilla syrup and caramel.</span>
+                      <p class = "product-price">Php 85.00</p>
+                    </div>
+                </div>
+                  <!-- end of single item1 -->
+                <!-- single item2 -->
+                <div class = "product-item">
+                  <div class = "product-img">
+                    <img src = "images/fikavl.jpg" alt = "product image">
+                    <button type = "button" class = "add-to-cart-btn">
+                      <i class = "fas fa-shopping-cart"></i>Add To Cart
+                    </button>
+                  </div>
+                  <div class = "product-content">
+                    <h3 class = "product-name">Vanilla Latte</h3>
+                    <span class = "product-description">Infused with milk, contains vanilla syrup.</span>
+                    <p class = "product-price">Php 85.00</p>
+                  </div>
+                </div>
+                <!-- end of single item2 -->
+                <!-- single item3 -->
+                <div class = "product-item">
+                    <div class = "product-img">
+                      <img src = "images/fikacb.JPG" alt = "product image">
+                      <button type = "button" class = "add-to-cart-btn">
+                        <i class = "fas fa-shopping-cart"></i>Add To Cart
+                      </button>
+                    </div>
+                    <div class = "product-content">
+                      <h3 class = "product-name">Cold Brew</h3>
+                      <span class = "product-description">Black and simple, steeped for 18 hours.</span>
+                      <p class = "product-price">Php 70.00</p>
+                    </div>
+                </div>
+                  <!-- end of single item3 -->
+                  <!-- single item4 -->
+                <div class = "product-item">
+                    <div class = "product-img">
+                      <img src = "images/3in1.jpg" alt = "product image">
+                      <button type = "button" class = "add-to-cart-btn">
+                        <i class = "fas fa-shopping-cart"></i>Add To Cart
+                      </button>
+                    </div>
+                    <div class = "product-content">
+                      <h3 class = "product-name">One of each</h3>
+                      <span class = "product-description">Set of Cold Brew, Caramel Macchiato, and Vanilla Latte.</span>
+                      <p class = "product-price">Php 215.00</p>
+                    </div>
+                </div>
+                  <!-- end of single item4 -->
+              </div>
+            </div>
+          </section>
+          <!-- end of products section -->
+    </body>
+
+   
+    
+</html>
